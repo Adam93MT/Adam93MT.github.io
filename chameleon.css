@@ -1,3 +1,11 @@
+body {
+	font-family: Lato;
+}
+
+a {
+	color: #4FA274
+}
+
 .btn, .btn-primary, 
 .btn:hover, .btn-primary:hover,
 .btn:active .btn-primar:active {
@@ -36,6 +44,10 @@
 
 /* Featurettes
 ------------------------- */
+
+/*.featurette, .featurette-divider {
+	display: none;
+}*/
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
