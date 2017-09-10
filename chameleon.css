@@ -13,11 +13,15 @@ a {
 	border: .05rem solid #fff;;
 }
 
+.bg-green {
+	background-color: #4FA274;
+}
+
 /* HERO 
 -------------------------------------------------- */
 
-.jumbotron {
-
+.jumbotron img{
+	width: 50%;
 }
 .jumbotron p {
 	max-width: 60%;
