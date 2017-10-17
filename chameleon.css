@@ -51,6 +51,8 @@ p {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  background-color: rgba(79, 162, 116, 0.5);
+
 }
 .cover-container {
   margin-right: auto;
@@ -58,12 +60,13 @@ p {
 }
 .cover-heading {
 	color: #fafafa;
-	background-color: #4FA274;
 	padding: 0.5em;
 	margin: 0;
 }
 .cover-heading {
+  margin-top: -56px;
 	font-weight: 700;
+  font-size: 4em;
 }
 
 /* Padding for spacing */
@@ -108,13 +111,13 @@ p {
   }
 }
 
-@media (min-width: 62em) {
+/*@media (min-width: 62em) {
   .masthead,
   .mastfoot,
   .cover-container {
     width: 42rem;
   }
-}
+}*/
 
 /* HERO 
 -------------------------------------------------- */
